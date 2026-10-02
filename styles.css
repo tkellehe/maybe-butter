@@ -71,8 +71,11 @@ a { color: inherit; }
   border: 1px solid #e6d59f;
   border-radius: 48% 52% 48% 52%;
   background: #f7e9bd;
-  color: var(--green);
-  font-size: 1rem;
+}
+.brand-mark img {
+  display: block;
+  width: 25px;
+  height: 25px;
 }
 .release-note {
   display: inline-flex;
@@ -194,14 +197,18 @@ h2 { margin-bottom: 11px; font-size: clamp(2.1rem, 4vw, 3rem); line-height: 1.1;
 }
 .feature-icon {
   display: grid;
-  width: 38px;
-  height: 38px;
+  width: 48px;
+  height: 48px;
   margin-bottom: 15px;
   place-items: center;
   border-radius: 13px;
   background: #f4ebd3;
   color: var(--green);
-  font-size: 1.2rem;
+}
+.feature-icon img {
+  display: block;
+  width: 34px;
+  height: 34px;
 }
 .feature h3 { margin-bottom: 8px; font-size: .98rem; letter-spacing: -.02em; }
 .feature p { margin: 0; color: var(--muted); font-size: .88rem; line-height: 1.65; }
@@ -212,7 +219,8 @@ h2 { margin-bottom: 11px; font-size: clamp(2.1rem, 4vw, 3rem); line-height: 1.1;
   font-size: .82rem;
 }
 .footer-brand { color: var(--ink); font-size: .9rem; }
-.footer-brand .brand-mark { width: 27px; height: 27px; font-size: .85rem; }
+.footer-brand .brand-mark { width: 27px; height: 27px; }
+.footer-brand .brand-mark img { width: 22px; height: 22px; }
 .site-footer p { margin: 0; }
 .studio { display: flex; align-items: center; gap: 9px; }
 .studio img { width: 26px; height: 26px; border-radius: 50%; }

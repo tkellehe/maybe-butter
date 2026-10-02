@@ -6,7 +6,7 @@ The starting page for **Maybe Butter**, a calm virtual pet by **Dada Walrus Game
 
 Edit `index.html` for content and `styles.css` for styling. Keep links relative so they work under `/maybe-butter/`. No dependencies or build step are required.
 
-`assets/game-scene.svg` is a static export of the actual game artwork from the companion `dwg-butters` project. The studio logo and locally hosted Fredoka font also come from that project; the font license is included in `assets/FONT-LICENSE.txt`.
+`assets/game-scene.svg` is a static export of the actual game artwork from the companion `dwg-butters` project. The page icons are exported from the game’s achievement icon set (`src/ui/icons.ts`). The studio logo and locally hosted Fredoka font also come from that project; the font license is included in `assets/FONT-LICENSE.txt`.
 
 The first release is planned for itch.io. Add the real release link when available.
 
