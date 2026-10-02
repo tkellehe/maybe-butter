@@ -3,50 +3,65 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#fff9e9">
-    <meta name="description" content="Maybe Butter — a little something good is taking shape.">
-    <title>Maybe Butter — Coming together</title>
+    <meta name="theme-color" content="#f8f4e9">
+    <meta name="description" content="Meet Butter, a little creature who listens. Maybe Butter is coming to Twitch.">
+    <title>Maybe Butter — Coming to Twitch</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
-      <a class="brand" href="./" aria-label="Maybe Butter home">
-        <span class="brand-mark" aria-hidden="true">m</span>
+      <a class="brand" href="#top" aria-label="Maybe Butter home">
+        <span class="brand-mark" aria-hidden="true">✿</span>
         <span>maybe butter</span>
       </a>
-      <span class="header-note">A little something is in the works</span>
+      <span class="release-note"><span aria-hidden="true"></span> Coming to Twitch</span>
     </header>
 
     <main id="main">
-      <section class="hero" aria-labelledby="hero-title">
+      <section class="hero" id="top" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <p class="eyebrow"><span class="sparkle" aria-hidden="true">✳</span> A fresh start</p>
-          <h1 id="hero-title">Good things<br>are <em>spreading.</em></h1>
-          <p class="intro">Maybe Butter is finding its shape. We’re starting with a simple little home for what comes next.</p>
-          <a class="button" href="https://github.com/tkellehe/maybe-butter">View the project <span aria-hidden="true">↗</span></a>
+          <p class="eyebrow">A little creature who listens</p>
+          <h1 id="hero-title">Say hello to <em>Butter.</em></h1>
+          <p class="intro">Type a few words. Butter answers with a bounce, a blush, a curious look—or maybe a nap. Every Butter grows its own personality from how you play.</p>
+          <a class="button" href="#gameplay">Meet Butter <span aria-hidden="true">↓</span></a>
+          <p class="hero-footnote">A calm little game by Dada Walrus Games</p>
         </div>
-
-        <div class="butter-art" role="img" aria-label="A sunny yellow pat of butter on a plate">
-          <div class="sun"></div>
-          <div class="plate-shadow"></div>
-          <div class="plate"><div class="plate-line"></div></div>
-          <div class="butter"><span class="butter-shine"></span></div>
-          <span class="art-spark spark-one" aria-hidden="true">✳</span>
-          <span class="art-spark spark-two" aria-hidden="true">✦</span>
-          <span class="art-caption">made for the good stuff</span>
-        </div>
+        <figure class="scene-frame">
+          <img src="assets/game-scene.svg" alt="Butter at home in a warm, quiet little burrow">
+          <figcaption><span aria-hidden="true">✦</span> A small world, all Butter’s own</figcaption>
+        </figure>
       </section>
 
-      <section class="note" id="starter-note" aria-label="About this starter page">
-        <span class="note-icon" aria-hidden="true">✿</span>
-        <p><strong>This is just the beginning.</strong> A simple starter page, ready to grow into the Maybe Butter you have in mind.</p>
+      <section class="gameplay" id="gameplay" aria-labelledby="gameplay-title">
+        <div class="section-heading">
+          <p class="eyebrow">No big fuss</p>
+          <h2 id="gameplay-title">Little words. <em>Big feelings.</em></h2>
+          <p>Butter doesn’t talk back in words. It responds in its own quiet way.</p>
+        </div>
+        <div class="feature-list">
+          <article class="feature">
+            <span class="feature-icon" aria-hidden="true">☼</span>
+            <h3>Try a few words</h3>
+            <p>Type a short message and watch Butter move, change expression, and find its answer.</p>
+          </article>
+          <article class="feature">
+            <span class="feature-icon" aria-hidden="true">❋</span>
+            <h3>Butter grows with you</h3>
+            <p>Each little interaction helps Butter develop a personality of its own.</p>
+          </article>
+          <article class="feature">
+            <span class="feature-icon" aria-hidden="true">⌂</span>
+            <h3>A cozy world of one</h3>
+            <p>No chat, no internet. Your Butter and its little world stay on your device.</p>
+          </article>
+        </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <span>© <span id="year">2026</span> Maybe Butter</span>
-      <span>Made with a little sunshine <span aria-hidden="true">☼</span></span>
+      <a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true">✿</span><span>maybe butter</span></a>
+      <p class="studio"><img src="assets/dada-walrus-logo.svg" alt=""> A game by Dada Walrus Games</p>
     </footer>
   </body>
 </html>
