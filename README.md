@@ -12,6 +12,8 @@ Edit `index.html` for content and `styles.css` for styling. Keep links relative 
 
 The first release is planned for itch.io. Add the real release link when available.
 
+The page introduces the planned goal of collecting every achievement through activities, including puzzles and silly surprises, plus a small adventure to save Butter’s little world. Keep this release copy aligned with the game as development progresses.
+
 To preview locally, run `python3 -m http.server 8000`, then open http://localhost:8000.
 
 ## Publish
